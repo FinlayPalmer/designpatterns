@@ -17,7 +17,7 @@ public class Question {
      * @param correctAnswer The correct number of the answer to the question
      * @param answers       All possible answers to the question
      */
-    public Question(String question, int correctAnswer, String[] answers) {
+    public Question(String question, int correctAnswer, String... answers) {
         this.question = question;
         this.correctAnswer = correctAnswer;
         this.answers = new ArrayList<String>();
